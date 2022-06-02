@@ -1,0 +1,1378 @@
+<!DOCTYPE html>
+<html data-wf-domain="" data-wf-page="62541755f55ba0e3de75e561" data-wf-site="62541755f55ba06a6275e55f" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Zombiefarm</title>
+    <meta content="#" name="description" />
+    <meta content="#" property="og:title" />
+    <meta content="#" property="og:description" />
+    <meta content="https://assets.website-files.com/62541755f55ba06a6275e55f/6254305665d55029804dd0c6_preview-yc.gif" property="og:image" />
+    <meta content="#" property="twitter:title" />
+    <meta content="#" property="twitter:description" />
+    <meta content="https://assets.website-files.com/62541755f55ba06a6275e55f/6254305665d55029804dd0c6_preview-yc.gif" property="twitter:image" />
+    <meta property="og:type" content="website" />
+    <meta content="summary_large_image" name="twitter:card" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    
+    <link href="assets.website-files.com/62541755f55ba06a6275e55f/css/yodacoach.webflow.0201250ad.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        WebFont.load({
+            google: {
+                families: ["Lexend:100,200,300,regular,500,600,700,800,900", "Lexend Exa:100,200,300,regular,500,600,700,800,900", "Fahkwang:200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic"]
+            }
+        });
+    </script>
+    <script type="text/javascript">
+        ! function(o, c) {
+            var n = c.documentElement,
+                t = " w-mod-";
+            n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
+        }(window, document);
+    </script>
+    <link href="assets.website-files.com/62541755f55ba06a6275e55f/icons8-zombie-64-removebg-preview.png" rel="shortcut icon" type="image/x-icon" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link href="https://assets.website-files.com/62541755f55ba06a6275e55f/62541755f55ba0f8c275e577_fav256.svg" rel="apple-touch-icon">
+    <style>
+        .select1 ::selection {
+            background: #2FF924;
+            color: #F2FCEE;
+            text-shadow: none;
+        }
+        
+        .select2 ::selection {
+            background: #F2FCEE;
+            color: #2FF924;
+            text-shadow: none;
+        }
+        
+        .select3 ::selection {
+            background: #2FF924;
+            color: #151E11;
+            text-shadow: none;
+        }
+    </style>
+    <script type="text/javascript">
+        (function(m, e, t, r, i, k, a) {
+            m[i] = m[i] || function() {
+                (m[i].a = m[i].a || []).push(arguments)
+            };
+            m[i].l = 1 * new Date();
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })
+        (window, document, "script", "mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(88198634, "init", {
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true,
+            webvisor: true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/88198634" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+    <!-- START sharect.js -->
+    <style>
+        .sharect {
+            z-index: 9999;
+        }
+    </style>
+    <!-- END sharect.js -->
+</head>
+
+<body>
+    <div class="cursor">
+        <div class="cursor_dot-move">
+            <div class="cursor_dot"></div>
+        </div>
+    </div>
+    <div id="particles-js" class="particles-js"></div>
+    <div class="page-wrapper">
+        <div class="global-styles">
+            <div class="html w-embed">
+                <style>
+                    /* ALL PAGES CSS */
+                    /* Your max width code replaces the code below */
+                    
+                    @media only screen and (min-width: 1560px) {
+                        body {
+                            font-size: 0.975em;
+                        }
+                    }
+                    /* Desktop Only CSS (i.e. hover states) */
+                    
+                    @media only screen and (min-width: 992px) {}
+                    /* Main Variables */
+                    
+                     :root {
+                        --main-dark: black;
+                        --main-light: white;
+                    }
+                    /* Global Styles */
+                    
+                     ::selection {
+                        background: var(--main-dark);
+                        color: var(--main-light);
+                        text-shadow: none;
+                    }
+                    
+                    img::selection,
+                    svg::selection {
+                        background: transparent;
+                    }
+                    /* Link color inherits from parent font color  */
+                    
+                    a {
+                        color: inherit;
+                    }
+                    /* Disable / enable clicking on an element and its children  */
+                    
+                    .no-click {
+                        pointer-events: none;
+                    }
+                    
+                    .can-click {
+                        pointer-events: auto;
+                    }
+                    /* Target any element with a certain "word" in the class name  */
+                    
+                    [class*="spacer"] {}
+                </style>
+            </div>
+            <div class="banner-embed w-embed">
+                <style>
+                    .banner-move {
+                        position: absolute;
+                        white-space: nowrap;
+                        will-change: transform;
+                        animation: marquee-horizontal 40s linear infinite;
+                        /* manipulate the speed of the marquee by changing "40s" line above*/
+                    }
+                    
+                    @keyframes marquee-horizontal {
+                        from {
+                            transform: translateX(0);
+                        }
+                        to {
+                            transform: translateX(-50%);
+                        }
+                    }
+                </style>
+            </div>
+            <div class="rotating-circle w-embed">
+                <style>
+                    /* Rotating Circle */
+                    
+                    .spinning-circle {
+                        will-change: transform;
+                        animation: marquee 20s linear infinite;
+                    }
+                    
+                    @keyframes marquee {
+                        from {
+                            transform: rotate(0deg);
+                        }
+                        to {
+                            transform: rotate(-360deg);
+                        }
+                    }
+                </style>
+            </div>
+            <div class="button-circle w-embed">
+                <style>
+                    /* Animate Button Circle */
+                    
+                     :root {
+                        --circle-btn-bg: #151e11;
+                        --circle-btn-text: #f2fcee;
+                        --circle-btn-speed: 0.3s;
+                        --circle-btn-half-speed: 0.15s;
+                        --circle-ease-out: cubic-bezier(0.61, 1, 0.88, 1);
+                        --circle-ease-in: cubic-bezier(0.12, 0, 0.39, 0);
+                    }
+                    
+                    .reveal-circle {
+                        position: relative;
+                        overflow: hidden;
+                        -webkit-mask-image: -webkit-radial-gradient(white, black);
+                    }
+                    
+                    .reveal-circle:hover {
+                        color: var(--circle-btn-text);
+                        background-color: var(--circle-btn-bg);
+                        transition: background-color 0.0s linear var(--circle-btn-speed);
+                    }
+                    
+                    .reveal-circle::after {
+                        pointer-events: none;
+                        background-color: var(--circle-btn-bg);
+                        transform: translateY(5em);
+                        content: "";
+                        z-index: -1;
+                        position: absolute;
+                        width: 100%;
+                        padding-top: 100%;
+                        left: 0%;
+                        top: 0%;
+                        right: 0%;
+                        bottom: auto;
+                        border-radius: 50%;
+                        transition: border-radius var(--circle-btn-half-speed) var(--circle-ease-in) 0.0s, transform var(--circle-btn-speed) var(--circle-ease-in);
+                    }
+                    
+                    .reveal-circle:hover::after {
+                        border-radius: 0%;
+                        transform: translateY(0em);
+                        transition: border-radius var(--circle-btn-half-speed) var(--circle-ease-out) var(--circle-btn-half-speed), transform var(--circle-btn-speed) var(--circle-ease-out);
+                    }
+                </style>
+            </div>
+            <div class="animated-tabs w-embed">
+                <style>
+                    /* The animation code */
+                    
+                    @keyframes fill {
+                        0% {
+                            opacity: 1;
+                            width: 0%;
+                        }
+                        95% {
+                            opacity: 1;
+                            width: 100%;
+                        }
+                        100% {
+                            opacity: 0;
+                            width: 100%;
+                        }
+                    }
+                    /* The element to apply the animation to */
+                    
+                    .card.is--current .card_fill {
+                        animation-name: fill;
+                        animation-duration: 5s;
+                    }
+                </style>
+            </div>
+            <div class="pulsing-embed w-embed">
+                <style>
+                    /* Pulsing Outline White*/
+                    
+                    .pulsing-outline {
+                        box-shadow: 0 0 0 0 rgba(255, 255, 255, 1);
+                        animation: pulsing-outline 2s infinite;
+                    }
+                    
+                    @keyframes pulsing-outline {
+                        0% {
+                            box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+                        }
+                        70% {
+                            box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+                        }
+                        100% {
+                            box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+                        }
+                    }
+                </style>
+            </div>
+            <div class="cursor-buttons w-embed">
+                <style>
+                    a {
+                        color: inherit;
+                    }
+                    
+                    .menu_link:hover .link-move {
+                        transform: translateY(-100%);
+                    }
+                    
+                    .menu_link:hover .link-text {
+                        transform: rotate(0deg);
+                    }
+                    
+                    .menu_link:hover {
+                        color: white;
+                    }
+                    
+                    .button-menu:hover {
+                        color: #2ff924;
+                    }
+                    
+                    .button-menu:hover .button_bg {
+                        transform: scale(1.06);
+                        background-color: white;
+                    }
+                    
+                    .cursor {
+                        pointer-events: none;
+                    }
+                    
+                    @media (pointer: fine) {
+                        body:hover .cursor {
+                            opacity: 1.0;
+                        }
+                    }
+                    
+                    .scale-cursor-up {
+                        transform: scale(2.0);
+                    }
+                    
+                    .cursor-z-index {
+                        z-index: 1001;
+                    }
+                </style>
+            </div>
+            <div class="round-shapes-safari w-embed">
+                <style>
+                    /* Round Shapes on Safari */
+                    .lightsaber-bg {
+                        -webkit-backface-visibility: hidden;
+                        -moz-backface-visibility: hidden;
+                        -webkit-transform: translate3d(0, 0, 0);
+                        -moz-transform: translate3d(0, 0, 0)
+                    }
+                </style>
+            </div>
+        </div>
+        <nav class="nav">
+            <div class="container is--nav">
+                <a href="#" class="logo w-inline-block">
+                    <p>Zombie<span class="lightsaber-green-span"><img style="height: 40px; width: 40px;" src="assets.website-files.com/62541755f55ba06a6275e55f/icons8-zombie-64-removebg-preview.png"/></span>farm</p>
+                </a>
+                <div class="menu">
+                    <a href="#toolkit" class="menu_link w-inline-block">
+                        <div class="link-wrap">
+                            <div class="link-move">
+                                <p class="link-text">Whitepaper</p>
+                                <p class="link-text is--second">Whitepaper</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://twitter.com/ZombieFarmsNFT" class="menu_link w-inline-block">
+                        <div class="link-wrap">
+                            <div class="link-move">
+                                <p class="link-text">Twitter</p>
+                                <p class="link-text is--second">Twitter</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://discord.gg/afrareSY4G" target="_blank" class="button-menu w-inline-block">
+                        <div class="button_bg pulsing-outline"></div>
+                        <div class="button_contain">
+                            <div data-w-id="19f29e34-4ddf-f495-4d95-e328d9988ac7" style="-webkit-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                                class="button_move">
+                                <div class="button_wrap">
+                                    <p class="button_text">Discord</p>
+                                </div>
+                                <div class="button_wrap is--second">
+                                    <p class="button_text">Discord</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <main class="main-wrapper">
+            <section class="section-hero">
+                <div class="container is--hero">
+                    <div class="hero-wrapper">
+                        <div class="hero-title">
+                            <h1 class="display">ETH-Native rebase token offering the highest .<br/><br><span class="lightsaber-green-span">FIXED APY on ETH </span>
+                            </h1>
+                        </div>
+                        <div class="lightsaber-button-w is--hero">
+                            <div class="main-button-w">
+                                <a href="#" target="_blank" class="button reveal-circle w-inline-block">
+                                    <div>Become an investor</div>
+                                    <div class="button-circle-shape-2">
+                                        <div class="button-circle-shape-1"></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="second-button-w">
+                                <a id="light" href="#" class="button is--black reveal-circle w-inline-block">
+                                    <div>Join as a developer</div>
+                                    <div class="button-circle-shape-2">
+                                        <div class="button-circle-shape-1"></div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <style>
+                .cards-bigi{
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-evenly;
+                }
+                
+                .cards-bigi a{
+                    width: 350px;
+                    margin-bottom: 20px;
+                }
+                @media all and (max-width:1200px){
+                    .cards-bigi a{
+                    width: 300px;
+                }
+                }
+                @media all and (max-width:1045px){
+                    .cards-bigi a{
+                    width: 290px;
+                }
+                }
+                @media all and (max-width:1020px){
+                    .cards-bigi a{
+                    width: 350px;
+                }
+                }
+                .Image--image {
+                    height: 100%;
+                    object-fit: contain;
+                    transition: opacity 400ms ease 0s;
+                    width: 100%;
+                }.CarouselCard--image {
+                    -webkit-box-align: center;
+                    align-items: center;
+                    display: flex;
+                    -webkit-box-pack: center;
+                    justify-content: center;
+                    max-height: 100%;
+                    max-width: 100%;
+                    overflow: hidden;
+                    position: relative;
+                    border-radius: 60px;
+                    border-top-left-radius: 0px;
+                    border-bottom-left-radius: 0px;
+                    border-bottom-right-radius: 0px;
+                    border-bottom: 1px solid rgb(229, 232, 235);
+                    background-color: rgb(229, 232, 235);
+                }.CarouselCard--content {
+                    flex-direction: column;
+                    padding: 10px;
+                }.card-wrap{
+                    display: grid;
+
+                }.CarouselCard--image img{
+                    overflow: hidden;
+                    border-top-left-radius: 0px;
+                    border-top-right-radius: 60px;
+                }.gJcTao {
+                    display: flex;
+                    height: 40px;
+                    -webkit-box-align: center;
+                    align-items: center;
+                    -webkit-box-pack: center;
+                    justify-content: center;
+                }.CarouselCard--content {
+                    flex-direction: column;
+                    padding: 10px;
+                    margin-top: 0 !important;
+                    background-color: white;
+                }.bjsuxj {
+                    font-weight: 600;
+                    font-size: 20px;
+                    color: rgb(4, 17, 29);
+                }
+            </style>
+            <section>
+                <div class="container">
+                    <h2 class="text-center">All-Time best NFT Collections</h2>
+                    <div class="cards cards-bigi">
+                        <a href="#" class="">
+                            <div class="card_wrap card-wrap" >
+                                <div class="sc-dy59cl-0 eXnWvj Image--isImageLoaded Image--isImageLoaderVisible CarouselCard--image" style="height: 100%; width: 100%;">
+                                    <img class="Image--image" src="./img/Sample NFT Images/IMG_6988.PNG" style="object-fit: cover;">
+                                </div>
+                                <div class="sc-1xf18x6-0 sc-1twd32i-0 hDbqle kKpYwv CarouselCard--content">
+                                    <div height="40" class="sc-1xf18x6-0 sc-1twd32i-0 gJcTao">
+                                        <span class="sc-1xf18x6-0 sc-1w94ul3-0 hDbqle bjsuxj BrowseCategories--title">Art</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="">
+                            <div class="card_wrap card-wrap">
+                                <div class="sc-dy59cl-0 eXnWvj Image--isImageLoaded Image--isImageLoaderVisible CarouselCard--image" style="height: 100%; width: 100%;">
+                                    <img class="Image--image" src="./img/Sample NFT Images/IMG_6989.PNG" style="object-fit: cover;">
+                                </div>
+                                <div class="sc-1xf18x6-0 sc-1twd32i-0 hDbqle kKpYwv CarouselCard--content">
+                                    <div height="40" class="sc-1xf18x6-0 sc-1twd32i-0 gJcTao">
+                                        <span class="sc-1xf18x6-0 sc-1w94ul3-0 hDbqle bjsuxj BrowseCategories--title">Art</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="">
+                            <div class="card_wrap card-wrap">
+                                <div class="sc-dy59cl-0 eXnWvj Image--isImageLoaded Image--isImageLoaderVisible CarouselCard--image" style="height: 100%; width: 100%;">
+                                    <img class="Image--image" src="./img/Sample NFT Images/IMG_6998.PNG" style="object-fit: cover;">
+                                </div>
+                                <div class="sc-1xf18x6-0 sc-1twd32i-0 hDbqle kKpYwv CarouselCard--content">
+                                    <div height="40" class="sc-1xf18x6-0 sc-1twd32i-0 gJcTao">
+                                        <span class="sc-1xf18x6-0 sc-1w94ul3-0 hDbqle bjsuxj BrowseCategories--title">Art</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="">
+                            <div class="card_wrap card-wrap" >
+                                <div class="sc-dy59cl-0 eXnWvj Image--isImageLoaded Image--isImageLoaderVisible CarouselCard--image" style="height: 100%; width: 100%;">
+                                    <img class="Image--image" src="./img/Sample NFT Images/IMG_7001.PNG" style="object-fit: cover;">
+                                </div>
+                                <div class="sc-1xf18x6-0 sc-1twd32i-0 hDbqle kKpYwv CarouselCard--content">
+                                    <div height="40" class="sc-1xf18x6-0 sc-1twd32i-0 gJcTao">
+                                        <span class="sc-1xf18x6-0 sc-1w94ul3-0 hDbqle bjsuxj BrowseCategories--title">Art</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="">
+                            <div class="card_wrap card-wrap">
+                                <div class="sc-dy59cl-0 eXnWvj Image--isImageLoaded Image--isImageLoaderVisible CarouselCard--image" style="height: 100%; width: 100%;">
+                                    <img class="Image--image" src="./img/Sample NFT Images/IMG_7005.PNG" style="object-fit: cover;">
+                                </div>
+                                <div class="sc-1xf18x6-0 sc-1twd32i-0 hDbqle kKpYwv CarouselCard--content">
+                                    <div height="40" class="sc-1xf18x6-0 sc-1twd32i-0 gJcTao">
+                                        <span class="sc-1xf18x6-0 sc-1w94ul3-0 hDbqle bjsuxj BrowseCategories--title">Art</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="">
+                            <div class="card_wrap card-wrap">
+                                <div class="sc-dy59cl-0 eXnWvj Image--isImageLoaded Image--isImageLoaderVisible CarouselCard--image" style="height: 100%; width: 100%;">
+                                    <img class="Image--image" src="./img/Sample NFT Images/IMG_7010.PNG" style="object-fit: cover;">
+                                </div>
+                                <div class="sc-1xf18x6-0 sc-1twd32i-0 hDbqle kKpYwv CarouselCard--content">
+                                    <div height="40" class="sc-1xf18x6-0 sc-1twd32i-0 gJcTao">
+                                        <span class="sc-1xf18x6-0 sc-1w94ul3-0 hDbqle bjsuxj BrowseCategories--title">Art</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <br>
+                    <div class="lightsaber-button-w is--hero" style="justify-content: center;margin-top: 20px;">
+                        <div class="main-button-w">
+                            <a href="#" target="_blank" class="button reveal-circle w-inline-block">
+                                <div>Explore all collections </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-cards">
+                <div class="container">
+                    <div class="lightsaber-sun-w">
+                        <div class="hero-wrapper">
+                            <div class="hero-title">
+                                <h2 class="h1">Zombiefarm <span class="lightsaber-green-span">AUTO-STAKING PROTOCOL</span>
+                                </h2>
+                            </div>
+                            <div class="hero-text">
+                                <p>We are positioning PRAGMA to lead a revolution in DeFi with the PRAGMA Auto-staking Protocol (PAP)</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div data-current="Tab 1" data-easing="ease" data-duration-in="300" data-duration-out="100" class="lightsaber-tabs w-tabs">
+                        <div class="lightsaber-tab-menu w-tab-menu">
+                            <a data-w-tab="Tab 1" class="lightsaber-tab-link w-inline-block w-tab-link w--current">
+                                <p>Investor</p>
+                            </a>
+                            <a data-w-tab="Tab 2" class="lightsaber-tab-link w-inline-block w-tab-link">
+                                <p>Developer</p>
+                            </a>
+                        </div>
+                        <div class="w-tab-content">
+                            <div data-w-tab="Tab 1" class="w-tab-pane w--tab-active">
+                                <div class="lightsaber-items-w">
+                                    <div class="lightsaber-item">
+                                        <div class="lightsaber-item-top">
+                                            <div class="lightsaber-icon-wrapper">
+                                                <div class="lightsaber-shape-1"></div>
+                                                <div class="lightsaber-shape-2">
+                                                    <div class="lightsaber-number">1</div>
+                                                </div>
+                                                <div class="lightsaber-shape-3"></div>
+                                                <div class="lightsaber-shape"></div>
+                                            </div>
+                                        </div>
+                                        <div class="lightsaber-item-bottom">
+                                            <div class="lightsaber-item-title">
+                                                <h2 class="h2">Auto-staking</h2>
+                                            </div>
+                                            <div class="lightsaber-item-text">
+                                                <p>In Zombiefarm you&#x27;No need to move your tokens to our website, staking rewards go straight into your wallet.</p>
+                                            </div>
+                                        </div>
+                                        <div class="lightsaber-bg is--1"></div>
+                                        <div class="noise"></div>
+                                        <div class="yoda-gif"></div>
+                                    </div>
+                                    <div class="lightsaber-item">
+                                        <div class="lightsaber-bg is--2"></div>
+                                        <div class="lightsaber-item-top">
+                                            <div class="lightsaber-icon-wrapper">
+                                                <div class="lightsaber-shape-1"></div>
+                                                <div class="lightsaber-shape-2">
+                                                    <div class="lightsaber-number">2</div>
+                                                </div>
+                                                <div class="lightsaber-shape-3"></div>
+                                                <div class="lightsaber-shape"></div>
+                                            </div>
+                                        </div>
+                                        <div class="lightsaber-item-bottom">
+                                            <div class="lightsaber-item-title">
+                                                <h2 class="h2">Highest APY on ETH</h2>
+                                            </div>
+                                            <div class="lightsaber-item-text">
+                                                <p>FIXED interest rate of 2.14% daily or with compound interest of 227,140.92% annually, highest in the ethereum network.</p>
+                                            </div>
+                                        </div>
+                                        <div class="noise"></div>
+                                    </div>
+                                    <div class="lightsaber-item">
+                                        <div class="lightsaber-bg is--3"></div>
+                                        <div class="lightsaber-item-top">
+                                            <div class="lightsaber-icon-wrapper">
+                                                <div class="lightsaber-shape-1"></div>
+                                                <div class="lightsaber-shape-2">
+                                                    <div class="lightsaber-number">3</div>
+                                                </div>
+                                                <div class="lightsaber-shape-3"></div>
+                                                <div class="lightsaber-shape"></div>
+                                            </div>
+                                        </div>
+                                        <div class="lightsaber-item-bottom">
+                                            <div class="lightsaber-item-title">
+                                                <h2 class="h2">Fastest Payout</h2>
+                                            </div>
+                                            <div class="lightsaber-item-text">
+                                                <p>Pays 0.02229% every 15 minutes or 96 times every day, making it the fastest auto-staking protocol in DeFi.</p>
+                                            </div>
+                                        </div>
+                                        <div class="noise"></div>
+                                    </div>
+                                    <div class="lightsaber-item is--cta">
+                                        <div class="lightsaber-gif"></div>
+                                        <div class="lightsaber-bg is--4"></div>
+                                        <div class="lightsaber-shape"></div>
+                                        <div class="lightsaber-item-bottom">
+                                            <div class="lightsaber-item-title">
+                                                <h2 class="h2">Monthly Dividend</h2>
+                                            </div>
+                                            <div class="lightsaber-item-text">
+                                                <p>Every month a 10% dividend is paid out to holders based on the growth presented in the treasury.</p>
+                                            </div>
+                                        </div>
+                                        <div class="lightsaber-button-w">
+                                            <div class="main-button-w">
+                                                <a href="#" class="button reveal-circle w-inline-block">
+                                                    <div>Join Zombiefarm</div>
+                                                    <div class="button-circle-shape-2">
+                                                        <div class="button-circle-shape-1"></div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="noise"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-w-tab="Tab 2" class="w-tab-pane">
+                                <div class="lightsaber-items-w">
+                                    <div class="lightsaber-item">
+                                        <div class="lightsaber-item-top">
+                                            <div class="lightsaber-icon-wrapper">
+                                                <div class="lightsaber-shape-1"></div>
+                                                <div class="lightsaber-shape-2">
+                                                    <div class="lightsaber-number">1</div>
+                                                </div>
+                                                <div class="lightsaber-shape-3"></div>
+                                                <div class="lightsaber-shape"></div>
+                                            </div>
+                                        </div>
+                                        <div class="lightsaber-item-bottom">
+                                            <div class="lightsaber-item-title">
+                                                <h2 class="h2">Get paid for learning new skills</h2>
+                                            </div>
+                                            <div class="lightsaber-item-text">
+                                                <p>Lorem ipsum dolor sit amet.</p>
+                                            </div>
+                                        </div>
+                                        <div class="lightsaber-bg is--1"></div>
+                                        <div class="noise"></div>
+                                        <div class="yoda2-gif"></div>
+                                    </div>
+                                    <div class="lightsaber-item">
+                                        <div class="lightsaber-bg is--2"></div>
+                                        <div class="lightsaber-item-top">
+                                            <div class="lightsaber-icon-wrapper">
+                                                <div class="lightsaber-shape-1"></div>
+                                                <div class="lightsaber-shape-2">
+                                                    <div class="lightsaber-number">2</div>
+                                                </div>
+                                                <div class="lightsaber-shape-3"></div>
+                                                <div class="lightsaber-shape"></div>
+                                            </div>
+                                        </div>
+                                        <div class="lightsaber-item-bottom">
+                                            <div class="lightsaber-item-title">
+                                                <h2 class="h2">Mentor others after you learned something</h2>
+                                            </div>
+                                            <div class="lightsaber-item-text">
+                                                <p>If you learned something you get Skill NFT that grants access to mentor others for that skill.</p>
+                                            </div>
+                                        </div>
+                                        <div class="noise"></div>
+                                    </div>
+                                    <div class="lightsaber-item">
+                                        <div class="lightsaber-bg is--3"></div>
+                                        <div class="lightsaber-item-top">
+                                            <div class="lightsaber-icon-wrapper">
+                                                <div class="lightsaber-shape-1"></div>
+                                                <div class="lightsaber-shape-2">
+                                                    <div class="lightsaber-number">3</div>
+                                                </div>
+                                                <div class="lightsaber-shape-3"></div>
+                                                <div class="lightsaber-shape"></div>
+                                            </div>
+                                        </div>
+                                        <div class="lightsaber-item-bottom">
+                                            <div class="lightsaber-item-title">
+                                                <h2 class="h2">Find a dream job</h2>
+                                            </div>
+                                            <div class="lightsaber-item-text">
+                                                <p>Get proof of skills by mentors and land a dream job in tech.</p>
+                                            </div>
+                                        </div>
+                                        <div class="noise"></div>
+                                    </div>
+                                    <div class="lightsaber-item is--cta">
+                                        <div class="lightsaber-bg is--4"></div>
+                                        <div class="lightsaber-shape"></div>
+                                        <div class="lightsaber-item-bottom">
+                                            <div class="lightsaber-item-title">
+                                                <h2 class="h2">Join Zombiefarm and get privileged NFTs</h2>
+                                            </div>
+                                            <div class="lightsaber-item-text">
+                                                <p>These NFTs ownership positively influences your position in the governance process and unlock access to community events, content, and perks.</p>
+                                            </div>
+                                        </div>
+                                        <div class="lightsaber-button-w">
+                                            <div class="main-button-w">
+                                                <a href="#" class="button reveal-circle w-inline-block">
+                                                    <div>Join Zombiefarm</div>
+                                                    <div class="button-circle-shape-2">
+                                                        <div class="button-circle-shape-1"></div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="noise"></div>
+                                        <div class="lightsaber-gif"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="toolkit" class="section">
+                <div class="container is--tabs">
+                    <div class="hero_left">
+                        <div class="hero-wrapper">
+                            <div class="left_heading">
+                                <h2 class="h1">TOKENOMICS</h2>
+                            </div>
+                            <div class="left_paragraph">
+                                <p>Zombiefarm buy and sell fees are an important part of the PAP. They provide capital for performing critical functions to the protocol as noted below.</p>
+                            </div>
+                            <div class="cards">
+                                <a href="#" class="card is--current w-inline-block">
+                                    <div class="card_wrap">
+                                        <div class="lightsaber-star">
+                                            <div class="tabs-shape"></div>
+                                        </div>
+                                        <h3 class="h5">RISK FREE VALUE</h3>
+                                    </div>
+                                    <div class="card_fill"></div>
+                                </a>
+                                <a href="#" class="card w-inline-block">
+                                    <div class="card_wrap">
+                                        <div class="lightsaber-star">
+                                            <div class="tabs-shape"></div>
+                                        </div>
+                                        <h3 class="h5">TREASURY</h3>
+                                    </div>
+                                    <div class="card_fill"></div>
+                                </a>
+                                <a href="#" class="card w-inline-block">
+                                    <div class="card_wrap">
+                                        <div class="lightsaber-star">
+                                            <div class="tabs-shape"></div>
+                                        </div>
+                                        <h3 class="h5">AUTOMATIC LP</h3>
+                                    </div>
+                                    <div class="card_fill"></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero_right">
+                        <div class="app"><img src="assets.website-files.com/62541755f55ba06a6275e55f/62541755f55ba0a5a675e573_yoda-screen-1.png" loading="lazy" width="400" sizes="(max-width: 767px) 88vw, 53vw" alt="Skillset &amp; CV" srcset="https://assets.website-files.com/62541755f55ba06a6275e55f/62541755f55ba0a5a675e573_yoda-screen-1-p-500.png 500w, https://assets.website-files.com/62541755f55ba06a6275e55f/62541755f55ba0a5a675e573_yoda-screen-1-p-800.png 800w, https://assets.website-files.com/62541755f55ba06a6275e55f/62541755f55ba0a5a675e573_yoda-screen-1-p-1080.png 1080w, https://assets.website-files.com/62541755f55ba06a6275e55f/62541755f55ba0a5a675e573_yoda-screen-1-p-1600.png 1600w, https://assets.website-files.com/62541755f55ba06a6275e55f/62541755f55ba0a5a675e573_yoda-screen-1-p-2000.png 2000w, https://assets.website-files.com/62541755f55ba06a6275e55f/62541755f55ba0a5a675e573_yoda-screen-1.png 3200w"
+                                class="app_img is--current" /><img src="assets.website-files.com/62541755f55ba06a6275e55f/62541755f55ba003d675e572_yoda-screen-2.png" loading="lazy" width="400" alt="Growth plans" class="app_img" /><img src="assets.website-files.com/62541755f55ba06a6275e55f/62541755f55ba06b5c75e574_yoda-screen-3.png"
+                                loading="lazy" width="400" sizes="(max-width: 767px) 88vw, 53vw" alt="1-on-1 meetings" srcset="https://assets.website-files.com/62541755f55ba06a6275e55f/62541755f55ba06b5c75e574_yoda-screen-3-p-500.png 500w, https://assets.website-files.com/62541755f55ba06a6275e55f/62541755f55ba06b5c75e574_yoda-screen-3-p-800.png 800w, https://assets.website-files.com/62541755f55ba06a6275e55f/62541755f55ba06b5c75e574_yoda-screen-3-p-1080.png 1080w, https://assets.website-files.com/62541755f55ba06a6275e55f/62541755f55ba06b5c75e574_yoda-screen-3-p-1600.png 1600w, https://assets.website-files.com/62541755f55ba06a6275e55f/62541755f55ba06b5c75e574_yoda-screen-3.png 5184w"
+                                class="app_img" /></div>
+                        <div class="app_circle"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="container">
+                    <div class="banner-wrapper pulsing-outline">
+                        <div class="cta-title-w">
+                            <h1 class="h2">Zombie Dao</h1>
+                        </div>
+                        <div class="cta-text-w">
+                            <p>Mint Zombie from NFT Collections</p>
+                        </div>
+                        <div class="lightsaber-button-w">
+                            <div class="main-button-w">
+                                <a href="#" class="button reveal-circle w-inline-block">
+                                    <div id="connectButton">Mint</div>
+                                    <div class="button-circle-shape-2">
+                                        <div class="button-circle-shape-1"></div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="lightsaber-shape"></div>
+                        <div class="lightsaber-bg is--4"></div>
+                        <div class="noise"></div>
+                    </div>
+                </div>
+            </section>
+            <section id="how-work" class="section">
+                <div class="container">
+                    <div class="hero-wrapper">
+                        <div class="hero-title">
+                            <h2 class="h1">How use <span class="lightsaber-green-span">Zombiefarm</span></h2>
+                        </div>
+                        <div class="how-text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus quos animi excepturi porro quisquam modi temporibus id laboriosam dolorem assumenda. that &lt;••&gt;.</p>
+                        </div>
+                    </div>
+                    <div class="how-grid">
+                        <div class="how-item">
+                            <div class="how-top-w">
+                                <div class="lightsaber-item-top is--centred">
+                                    <div class="how-icon-wrapper">
+                                        <div class="how-icon-shape-1">
+                                            <div class="lightsaber-number">1</div>
+                                        </div>
+                                        <div style="width:2.5em;height:2.5em" class="how-icon-shape-2"></div>
+                                        <div style="width:7.5em;height:7.5em" class="how-icon-shape-3"></div>
+                                        <div class="lightsaber-shape"></div>
+                                    </div>
+                                </div>
+                                <div class="lightsaber-item-title is--how">
+                                    <h3 class="h5">Set up your wallet.</h3>
+                                </div>
+                            </div>
+                            <div class="how-item-w is--1">
+                                <div class="lightsaber-item-bottom">
+                                    <div class="lightsaber-item-text">
+                                        <p>Once you’ve set up your wallet of choice, connect it to OpenSea by clicking the wallet icon in the top right corner. Learn about the wallets we support.</p>
+                                    </div>
+                                </div>
+                                <div class="noise"></div>
+                                <div class="lightsaber-bg is--1"></div>
+                            </div>
+                        </div>
+                        <div class="how-item">
+                            <div class="how-top-w">
+                                <div class="lightsaber-item-top is--centred">
+                                    <div data-w-id="564ff7dd-8376-e1cd-e9e5-be396092a3a0" class="how-icon-wrapper">
+                                        <div class="how-icon-shape-1">
+                                            <div class="lightsaber-number">2</div>
+                                        </div>
+                                        <div style="width:2.5em;height:2.5em" class="how-icon-shape-2"></div>
+                                        <div style="width:7.5em;height:7.5em" class="how-icon-shape-3"></div>
+                                        <div class="lightsaber-shape"></div>
+                                    </div>
+                                </div>
+                                <div class="lightsaber-item-title is--how">
+                                    <h3 class="h5">Create your collection.</h3>
+                                </div>
+                            </div>
+                            <div class="how-item-w is--2">
+                                <div class="lightsaber-bg is--2"></div>
+                                <div class="noise"></div>
+                                <div class="lightsaber-item-bottom">
+                                    <div class="lightsaber-item-text">
+                                        <p>Click My Collections and set up your collection. Add social links, a description, profile & banner images, and set a secondary sales fee.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="how-item">
+                            <div class="how-top-w">
+                                <div class="lightsaber-item-top is--centred">
+                                    <div class="how-icon-wrapper">
+                                        <div class="how-icon-shape-1">
+                                            <div class="lightsaber-number">3</div>
+                                        </div>
+                                        <div style="width:2.5em;height:2.5em" class="how-icon-shape-2"></div>
+                                        <div style="width:7.5em;height:7.5em" class="how-icon-shape-3"></div>
+                                        <div class="lightsaber-shape"></div>
+                                    </div>
+                                </div>
+                                <div class="lightsaber-item-title is--how">
+                                    <h3 class="h5">Add your NFTs.</h3>
+                                </div>
+                            </div>
+                            <div class="how-item-w is--3">
+                                <div class="lightsaber-bg is--3"></div>
+                                <div class="noise"></div>
+                                <div class="lightsaber-item-bottom">
+                                    <div class="lightsaber-item-text">
+                                        <p>Upload your work (image, video, audio, or 3D art), add a title and description, and customize your NFTs with properties, stats, and unlockable content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="how-item">
+                            <div class="how-top-w">
+                                <div class="lightsaber-item-top is--centred">
+                                    <div class="how-icon-wrapper">
+                                        <div class="how-icon-shape-1">
+                                            <div class="lightsaber-number">4</div>
+                                        </div>
+                                        <div style="width:2.5em;height:2.5em" class="how-icon-shape-2"></div>
+                                        <div style="width:7.5em;height:7.5em" class="how-icon-shape-3"></div>
+                                        <div class="lightsaber-shape"></div>
+                                    </div>
+                                </div>
+                                <div class="lightsaber-item-title is--how">
+                                    <h3 class="h5">List them for sale.</h3>
+                                </div>
+                            </div>
+                            <div class="how-item-w is--4">
+                                <div class="lightsaber-bg is--4"></div>
+                                <div class="noise"></div>
+                                <div class="lightsaber-item-bottom">
+                                    <div class="lightsaber-item-text">
+                                        <p>Choose between auctions, fixed-price listings. You choose how you want to sell your NFTs, and we help you.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner">
+                        <div class="banner-move">
+                            <p class="banner-text">Join our mailing list to stay in the loop with our newest feature releases, Zombiefarm token drops, and tips and tricks for navigating Zombiefarm.</p>
+                            <p class="banner-text">Join our mailing list to stay in the loop with our newest feature releases, Zombiefarm token drops, and tips and tricks for navigating Zombiefarm.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <style>
+                .fFzTvN {
+                    display: flex;
+                    flex-wrap: wrap;
+                    -webkit-box-pack: center;
+                    justify-content: center;
+                }
+                .jxMKCK {
+                    flex-direction: row;
+                }.jzlogA {
+                    display: inline-flex;
+                    flex-direction: row;
+                    -webkit-box-align: center;
+                    align-items: center;
+                    border-radius: 10px;
+                    -webkit-box-pack: center;
+                    justify-content: center;
+                    font-size: 16px;
+                    font-weight: 600;
+                    padding: 12px 20px;
+                    margin-right: 12px;
+                    width: 54px;
+                    height: 54px;
+                    margin-top: 8px;
+                    background-color: rgb(27 78 22);
+                    border: 1px solid rgb(23 53 18);
+                    color: rgb(255, 255, 255);
+                    transition: all 0.6s ease-in-out;
+                }.kKpYwv {
+                    margin-top: 8px;
+                }.jzlogA:hover{
+                    background-color: #2ff924;
+                    border: 1px solid #2ff924;
+                }.dd{
+                    margin-bottom: 120px;
+                }
+                @media all and (max-width:760px){
+                    .dd{
+                        margin-bottom: 10px;
+                    }
+                }
+            </style>
+            <section class="section-cta-footer">
+                <div class="container">
+                    <div class="cta-wrapper">
+                        <div class="cta-title-w">
+                            <h1 class="h1">Join Zombiefarm community</h1>
+                        </div>
+                        <br>
+                        <div class="dd">
+                            <div class="sc-1xf18x6-0 sc-1twd32i-0 fFzTvN kKpYwv">
+                                <a class="sc-l6elh8-0 fpieog sc-1xf18x6-0 sc-glfma3-0 jxMKCK jzlogA Footer--social-button" href="https://twitter.com/ZombieFarmsNFT" rel="nofollow noopener" target="_blank" aria-label="Twitter Official">
+                                   <div class="sc-1xf18x6-0 sc-1twd32i-0 sc-1dx2b3i-0 hDbqle kKpYwv cZgBMD">
+                                      <svg class="" fill="#FFFFFF" viewBox="0 0 18 16" style="height: 20px; width: 30px;">
+                                         <path d="M.09 13.791c1.992.14 3.728-.344 5.327-1.571-.816-.098-1.527-.311-2.127-.786-.584-.466-1.032-1.047-1.272-1.841h1.48c.008-.033.016-.066.024-.107-.816-.237-1.512-.663-2.032-1.342-.52-.67-.775-1.448-.8-2.3.52.148 1.016.295 1.52.434.016-.033.04-.065.056-.098-.72-.606-1.24-1.334-1.431-2.275a3.92 3.92 0 01.391-2.7c2 2.389 4.511 3.715 7.598 3.936-.096-.778-.104-1.498.16-2.202.912-2.463 3.983-3.249 5.894-1.481.216.196.4.229.632.147.632-.229 1.255-.474 1.903-.72-.248.81-.784 1.408-1.415 1.989.615-.164 1.231-.336 1.839-.5.024.025.048.041.072.066-.464.491-.912 1.007-1.415 1.449-.272.237-.36.458-.376.818-.144 4.01-1.752 7.25-5.175 9.289-3.487 2.07-7.077 1.947-10.612-.025-.064-.04-.12-.09-.24-.18z"></path>
+                                      </svg>
+                                   </div>
+                                </a>
+                                
+                                <a class="sc-l6elh8-0 fpieog sc-1xf18x6-0 sc-glfma3-0 jxMKCK jzlogA Footer--social-button" href="https://discord.gg/afrareSY4G" rel="nofollow noopener" target="_blank" aria-label="Discord">
+                                   <div class="sc-1xf18x6-0 sc-1twd32i-0 sc-1dx2b3i-0 hDbqle kKpYwv cZgBMD">
+                                      <svg class="" fill="#FFFFFF" viewBox="0 0 22 16" style="height: 20px; width: 30px;">
+                                         <path d="M8.11.5c-.28.002-2.574.067-4.996 1.873 0 0-2.584 4.665-2.584 10.408 0 0 1.507 2.593 5.473 2.719 0 0 .664-.792 1.202-1.477-2.278-.685-3.14-2.108-3.14-2.108s.18.126.502.307c.018 0 .035.019.07.036.055.035.108.054.162.09.448.252.896.45 1.31.611.736.307 1.615.576 2.639.774 1.346.252 2.925.342 4.646.019a12.954 12.954 0 002.603-.774 10.118 10.118 0 002.062-1.063s-.896 1.458-3.247 2.125c.538.666 1.185 1.439 1.185 1.439 3.965-.126 5.473-2.72 5.473-2.7 0-5.746-2.584-10.409-2.584-10.409C16.32.446 13.861.5 13.861.5l-.251.288c3.05.918 4.468 2.27 4.468 2.27a14.856 14.856 0 00-5.4-1.711 15.048 15.048 0 00-3.626.036c-.107 0-.197.019-.306.035-.628.072-2.153.288-4.073 1.135-.663.288-1.059.505-1.059.505S5.088 1.635 8.317.717L8.137.5h-.028zm-.457 6.645c1.022 0 1.849.882 1.83 1.981 0 1.1-.808 1.982-1.83 1.982-1.005 0-1.83-.883-1.83-1.982s.806-1.981 1.83-1.981zm6.55 0c1.004 0 1.83.882 1.83 1.981 0 1.1-.809 1.982-1.83 1.982-1.006 0-1.83-.883-1.83-1.982s.806-1.981 1.83-1.981z"></path>
+                                      </svg>
+                                   </div>
+                                </a>
+                               
+                             </div>
+                            </div>
+                        
+                        <div class="cta-text-w">
+                            <p>The next revolution could be an outcome of your idea. Let's associate.</p>
+                        </div>
+                        <div class="lightsaber-button-w">
+                            <div class="main-button-w">
+                                <a href="#" class="button reveal-circle w-inline-block">
+                                    <div>Join Zombiefarm<span class="lightsaber-green-span"></span></div>
+                                    <div class="button-circle-shape-2">
+                                        <div class="button-circle-shape-1"></div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="container is--footer">
+                    <div class="footer_bottom">
+                        <div class="footer_bottom-left">
+                            <p>© Copyright 2022</p>
+                        </div>
+                        <div class="footer_bottom-right">
+                            <a href="https://discord.gg/afrareSY4G" target="_blank" class="menu_link is--footer w-inline-block">
+                                <div class="link-wrap">
+                                    <div class="link-move">
+                                        <p class="link-text">Discord</p>
+                                        <p class="link-text is--second">Discord</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://twitter.com/ZombieFarmsNFT" target="_blank" class="menu_link is--footer w-inline-block">
+                                <div class="link-wrap">
+                                    <div class="link-move">
+                                        <p class="link-text">Twitter</p>
+                                        <p class="link-text is--second">Twitter</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="shapes-w">
+                        <div class="shapes is--lines">
+                            <div class="line-circle-4 pulsing-outline"></div>
+                            <div class="line-circle-3 pulsing-outline"></div>
+                            <div class="line-circle-2 pulsing-outline"></div>
+                            <div class="line-circle-1 pulsing-outline"></div>
+                        </div>
+                        <div class="shapes is--green">
+                            <div class="shapes-circle is--alt"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c83f26.js?site=62541755f55ba06a6275e55f" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="assets.website-files.com/62541755f55ba06a6275e55f/js/webflow.502f3c1ca.js" type="text/javascript"></script>
+
+    <script>
+        var textSelect = 1;
+        $('body').addClass('select1');
+
+        function selectColor() {
+            textSelect++;
+            if (textSelect > 3) {
+                textSelect = 1;
+            }
+            if (textSelect == 1) {
+                $('body').addClass('select1');
+                $('body').removeClass('select2');
+                $('body').removeClass('select3');
+            }
+            if (textSelect == 2) {
+                $('body').removeClass('select1');
+                $('body').addClass('select2');
+                $('body').removeClass('select3');
+            }
+            if (textSelect == 3) {
+                $('body').removeClass('select1');
+                $('body').removeClass('select2');
+                $('body').addClass('select3');
+            }
+        }
+        $('body').mousedown(function() {
+            selectColor();
+        });
+        $('body').mouseup(function() {
+            selectColor();
+        });
+    </script>
+    <!-- Script End / Select Color Text -->
+    <!-- START particles.js -->
+    <script src="cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script type="text/javascript">
+        particlesJS("particles-js", {
+            "particles": {
+                "number": {
+                    "value": 160,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#f2fcee"
+                },
+                "shape": {
+                    "type": "circle",
+                    "stroke": {
+                        "width": 0,
+                        "color": "#000000"
+                    },
+                    "polygon": {
+                        "nb_sides": 5
+                    },
+                    "image": {
+                        "src": "img/github.svg",
+                        "width": 100,
+                        "height": 100
+                    }
+                },
+                "opacity": {
+                    "value": 1,
+                    "random": true,
+                    "anim": {
+                        "enable": true,
+                        "speed": 1,
+                        "opacity_min": 0,
+                        "sync": false
+                    }
+                },
+                "size": {
+                    "value": 1,
+                    "random": true,
+                    "anim": {
+                        "enable": false,
+                        "speed": 4,
+                        "size_min": 0.3,
+                        "sync": false
+                    }
+                },
+                "line_linked": {
+                    "enable": false,
+                    "distance": 150,
+                    "color": "#ffffff",
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 1,
+                    "direction": "none",
+                    "random": true,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false,
+                    "attract": {
+                        "enable": false,
+                        "rotateX": 600,
+                        "rotateY": 600
+                    }
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "bubble"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "repulse"
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "grab": {
+                        "distance": 400,
+                        "line_linked": {
+                            "opacity": 1
+                        }
+                    },
+                    "bubble": {
+                        "distance": 250,
+                        "size": 0,
+                        "duration": 2,
+                        "opacity": 0,
+                        "speed": 3
+                    },
+                    "repulse": {
+                        "distance": 400,
+                        "duration": 0.4
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    },
+                    "remove": {
+                        "particles_nb": 2
+                    }
+                }
+            },
+            "retina_detect": true
+        });
+        var count_particles, stats, update;
+        stats = new Stats;
+        stats.setMode(0);
+        stats.domElement.style.position = 'absolute';
+        stats.domElement.style.left = '0px';
+        stats.domElement.style.top = '0px';
+        document.body.appendChild(stats.domElement);
+        count_particles = document.querySelector('.js-count-particles');
+        update = function() {
+            stats.begin();
+            stats.end();
+            if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+                count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+            }
+            requestAnimationFrame(update);
+        };
+        requestAnimationFrame(update);;
+    </script>
+    <!-- END particles.js -->
+
+    <!-- START Magic Tabs -->
+    <script>
+        let myTimer;
+
+        $(".card").on("click", function() {
+            $(".is--current").removeClass("is--current");
+            $(this).addClass("is--current");
+            let myIndex = $(this).index();
+            $(".app_img").eq(myIndex).addClass("is--current");
+            clearInterval(myTimer);
+            runInterval();
+        });
+
+        function runInterval() {
+            myTimer = setInterval(function() {
+                let currentItems = $(".is--current");
+                if (currentItems.next().length > 0) {
+                    currentItems.next().addClass("is--current");
+                } else {
+                    $(".card").eq(0).addClass("is--current");
+                    $(".app_img").eq(0).addClass("is--current");
+                }
+                currentItems.removeClass("is--current");
+            }, 5000);
+        }
+        runInterval();
+    </script>
+    <!-- END Magic Tabs -->
+
+    <!-- START Cursor and buttons -->
+    <script>
+        // Nav Button Hover In
+        $('.button-menu').on('mouseenter', function() {
+            $('.cursor_dot').toggleClass('scale-cursor-up');
+            $('.cursor').addClass('cursor-z-index');
+        });
+        $('.button-menu').on('mouseleave', function() {
+            $('.cursor_dot').toggleClass('scale-cursor-up');
+            $('.cursor').removeClass('cursor-z-index');
+        });
+
+        // Nav Button Hover In
+        $('.button').on('mouseenter', function() {
+            $('.cursor_dot').toggleClass('scale-cursor-up');
+            $('.cursor').addClass('cursor-z-index');
+        });
+        $('.button').on('mouseleave', function() {
+            $('.cursor_dot').toggleClass('scale-cursor-up');
+            $('.cursor').removeClass('cursor-z-index');
+        });
+
+        // Nav Link Hover In
+        $('.menu_link').on('mouseenter mouseleave', function() {
+            $('.cursor_dot').toggleClass('scale-cursor-up');
+        });
+
+        // Card Tab Hover In
+        $('.card').on('mouseenter mouseleave', function() {
+            $('.cursor_dot').toggleClass('scale-cursor-up');
+        });
+
+        // Card Tab Hover In
+        $('.lightsaber-tab-link').on('mouseenter mouseleave', function() {
+            $('.cursor_dot').toggleClass('scale-cursor-up');
+        });
+
+        // Logo Hover In
+        $('.logo').on('mouseenter mouseleave', function() {
+            $('.cursor_dot').toggleClass('scale-cursor-up');
+        });
+    </script>
+
+    <style>
+        .sharect {
+            z-index: 9999;
+        }
+    </style>
+    <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/toastify-js"
+  ></script>
+  <script src="https://cdn.jsdelivr.net/npm/@metamask/onboarding@1.0.1/dist/metamask-onboarding.bundle.js"></script>
+  <script src="./wip/web3.js"></script>
+  <script src="./wip/abt.js"></script>
+  <script src="./wip/app.js"></script>
+  <script src="./wip/mint.js"></script>
+    <script src="unpkg.com/sharect%402.0.0/dist/sharect.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>    
+    <script type="text/javascript" src="assets/js/wow/wow.min.js"></script>
+    <script type="text/javascript" src="assets/js/wow/main.js"></script>
+    
+</body>
+
+</html>
